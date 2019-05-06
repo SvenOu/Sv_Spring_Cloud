@@ -1,4 +1,4 @@
-package hello.service;
+package com.sv.spring.cloud.app.lib;
 
 import static org.assertj.core.api.Assertions.*;
 

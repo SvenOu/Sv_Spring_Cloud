@@ -1,4 +1,4 @@
-package hello.service;
+package com.sv.spring.cloud.app.lib;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Service;
