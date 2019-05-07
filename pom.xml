@@ -35,31 +35,36 @@
         <dependencies>
 
             <dependency>
-                <groupId>com.hehe</groupId>
-                <artifactId>mm-web</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.hehe</groupId>
-                <artifactId>mm-service</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.hehe</groupId>
-                <artifactId>mm-repo</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.hehe</groupId>
-                <artifactId>mm-entity</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <groupId>sv.springframework.lib</groupId>
+                <artifactId>library</artifactId>
+                <version>0.0.1</version>
             </dependency>
 
             <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-                <version>5.1.42</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${springboot.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-tomcat</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${springboot.version}</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
